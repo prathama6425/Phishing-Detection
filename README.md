@@ -158,7 +158,7 @@ To stop the server, go back to the terminal and press `Ctrl+C`.
 
 ---
 
-## 7. Understanding your results (for your interview)
+## 7. Understanding your results 
 
 - **Accuracy / Precision / Recall / F1** shown at the bottom of the app are
   standard classification metrics:
@@ -194,40 +194,6 @@ To stop the server, go back to the terminal and press `Ctrl+C`.
 
 ---
 
-## 9. Putting this on your resume
-
-**Project bullet points you can use** (edit to match what you actually did):
-
-> **Phishing URL Detector** — Built a machine learning web application that
-> classifies URLs as phishing or legitimate using lexical/structural
-> features (Python, scikit-learn, Flask). Trained a Random Forest classifier
-> on ~8,000 real-world URLs sourced from PhishTank and curated legitimate
-> domains, achieving ~96% accuracy on held-out test data. Designed and
-> debugged the training pipeline end-to-end, including diagnosing and
-> correcting a class-imbalance issue that caused biased predictions.
-
-**If asked about it in an interview, be ready to explain:**
-- What features the model uses and why (walk through `features.py`)
-- Why you chose Random Forest
-- What accuracy/precision/recall/F1 mean and why they all matter (not just
-  accuracy)
-- The class-imbalance bug you found and fixed — this is a *great* story:
-  it shows you test your own work critically instead of trusting a good
-  accuracy number blindly
-- What the model's limitations are and how you'd improve it in production
-
-### Publishing it to GitHub (optional but recommended)
-
-1. Create a free account at [github.com](https://github.com) if you don't
-   have one.
-2. Create a new repository (e.g. `phishing-url-detector`).
-3. Follow GitHub's on-page instructions under "…or push an existing
-   repository from the command line" — it will give you exact commands to
-   run from inside this project folder.
-4. Add the GitHub link to your resume next to this project.
-
----
-
 ## Project structure
 
 ```
@@ -255,3 +221,8 @@ plus one HTML page — everything else is data or generated output.
   phishing feed
 - Legitimate URLs: University of New Brunswick benign URL list, combined
   with a curated list of well-known real-world domains
+
+
+<img width="2227" height="1319" alt="Screenshot 2026-08-20 134408" src="https://github.com/user-attachments/assets/cf416ca3-6e44-4778-9711-75e8a92dcf01" />
+<img width="2347" height="1212" alt="Screenshot 2026-08-20 134338" src="https://github.com/user-attachments/assets/d90ffbb6-a64b-453a-983d-43b57612ac66" />
+
